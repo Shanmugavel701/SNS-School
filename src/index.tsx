@@ -14,11 +14,12 @@ import { StanfordPathwayPage } from './pages/stanford-pathway'
 
 const app = new Hono()
 
+// Diagnostic route
+app.get('/health', (c) => c.text('Hono is running!'))
+app.get('/api/test', (c) => c.json({ status: 'ok', runtime: 'edge' }))
+
 // Enable CORS for API routes
 app.use('/api/*', cors())
-
-// Serve static files are handled by the platform (Vercel/CF)
-// or we can add a middleware here if needed for local dev
 
 // API route for admission inquiry
 app.post('/api/admission-inquiry', async (c) => {

@@ -400,3 +400,4 @@ git push -f origin main
 **SNS Motto**: Sincerity, Nobility, Service
 **SNS Tagline**: Redesigning Common Minds | We are Design Thinkers
 # SNS-Academy
+# SNS-School
