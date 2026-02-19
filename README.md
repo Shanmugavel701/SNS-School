@@ -401,3 +401,4 @@ git push -f origin main
 **SNS Tagline**: Redesigning Common Minds | We are Design Thinkers
 # SNS-Academy
 # SNS-School
+# SNS-Nursing
